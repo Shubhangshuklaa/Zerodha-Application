@@ -27,10 +27,9 @@ app.use("/orders", orderRoute);
 app.listen(port, async () => {
   console.log(`App Is listening On ${port}`);
   
-  // If URI is undefined, log an error message.
-  if (!url) {
+    if (!url) {
     console.error("Error: MongoDB URI is undefined.");
-    process.exit(1); // Exit if the connection URI is not loaded correctly
+    process.exit(1); 
   }
 
   await mongoose.connect(url)

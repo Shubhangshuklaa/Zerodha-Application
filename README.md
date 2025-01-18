@@ -1,6 +1,6 @@
 Zerodha Clone Frontend
 
-This is the frontend of a Zerodha Clone application, built using the following technologies:
+This is the frontend of a Zerodha application, built using the following technologies:
 
 - **React.js** for the frontend
 - **Bootstrap** for responsive design
